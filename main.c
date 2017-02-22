@@ -320,7 +320,7 @@ int main()
 	//ft_printf("%b", 255);
 
 	//printf("{%d}", -42);
-	printf("{%d}\n");
+	printf("{%ll10wwww}\n");
 	printf("{%d}");
 
 }
