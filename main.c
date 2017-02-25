@@ -320,9 +320,17 @@ int main()
 	//ft_printf("%b", 255);
 
 	//printf("{%d}", -42);
-	printf("{%ll10wwww}\n");
-	printf("{%d}");
+    /*char *s = "UNIT42";
+    char t[] = "UNIT42";
+    //s[0] = 'w';
+    t[0] = 'w';
+	printf("{%s}", s);
+	printf("\n");
+    printf("{%s}", t);
+     */
 
+    printf("%  : s\n", "UNIT");
+    ft_printf("%  : s", "UNIT");
 }
 
 
