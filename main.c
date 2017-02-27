@@ -329,8 +329,8 @@ int main()
     printf("{%s}", t);
      */
 
-    printf("%  : s\n", "UNIT");
-    ft_printf("%  : s", "UNIT");
+    //printf("%:;_\s\n", "UNIT");
+    ft_printf("%0.0d", 0);
 }
 
 
